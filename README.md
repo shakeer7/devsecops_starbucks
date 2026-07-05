@@ -1,6 +1,6 @@
 <div align="center">
 
-# ☕ Starbucks Clone — DevSecOps on AWS EKS
+# ☕ Starbucks Clone — DevSecOps on AWS 
 
 ### End-to-end CI/CD, Security Scanning & Kubernetes Deployment Pipeline
 
@@ -95,7 +95,51 @@ Ansible
     ├── Helm Installation
     └── Environment Configuration
 ```
+## 📸 Project Screenshots
 
+##Application
+<img width="1763" height="2760" alt="Screenshot_5-7-2026_1722_a6c3916f2075b469cb548d6f4784641b-316636329 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/2b4e7dbb-cef3-494c-af44-ededd4c0dac8" />
+
+
+##SonarQube
+<img width="1763" height="1581" alt="Screenshot_5-7-2026_154356_43 205 120 247" src="https://github.com/user-attachments/assets/8f849c5e-2a88-476e-ae4e-9be6ac96b00c" />
+
+
+<img width="1920" height="1020" alt="sonarqubesqa" src="https://github.com/user-attachments/assets/255491fa-db48-4d05-9457-82891f03228d" />
+
+
+##Trivy
+
+
+<img width="1920" height="1080" alt="trivy scan" src="https://github.com/user-attachments/assets/8afec4a2-32ef-473f-997e-b7ea3be126a0" />
+
+
+##Grafana
+
+<img width="1763" height="805" alt="Screenshot_5-7-2026_184226_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/8b1330cb-be57-415c-8155-3016a12ba990" />
+
+
+<img width="1763" height="805" alt="Screenshot_5-7-2026_184218_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/357aa06a-647e-4d3f-ba86-5647589c6ccd" />
+
+
+<img width="1763" height="805" alt="Screenshot_5-7-2026_183727_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/68b3d288-62ca-4080-a6bd-44d8b1dc12c7" />
+
+
+
+
+
+
+
+| GitHub Actions Successful Pipeline | `screenshots/github-actions-success.png` |
+| Trivy Security Scan | `screenshots/trivy-scan.png` |
+| Docker Hub Image | `screenshots/dockerhub-image.png` |
+| Ansible Playbook Execution | `screenshots/ansible-playbook.png` |
+| AWS EKS Cluster | `screenshots/eks-cluster.png` |
+| Kubernetes Pods | `screenshots/kubernetes-pods.png` |
+| Kubernetes Services | `screenshots/kubernetes-services.png` |
+| Starbucks Application | `screenshots/application-homepage.png` |
+| Prometheus Dashboard | `screenshots/prometheus-dashboard.png` |
+| Grafana Dashboard | `screenshots/grafana-dashboard.png` |
 ---
 
 ## 🚀 Features
@@ -471,24 +515,6 @@ Default Username:
 ```text
 admin
 ```
-
----
-
-## 📸 Project Screenshots
-
-| Screenshot | Path |
-|---|---|
-| GitHub Repository | `screenshots/github-repository.png` |
-| GitHub Actions Successful Pipeline | `screenshots/github-actions-success.png` |
-| Trivy Security Scan | `screenshots/trivy-scan.png` |
-| Docker Hub Image | `screenshots/dockerhub-image.png` |
-| Ansible Playbook Execution | `screenshots/ansible-playbook.png` |
-| AWS EKS Cluster | `screenshots/eks-cluster.png` |
-| Kubernetes Pods | `screenshots/kubernetes-pods.png` |
-| Kubernetes Services | `screenshots/kubernetes-services.png` |
-| Starbucks Application | `screenshots/application-homepage.png` |
-| Prometheus Dashboard | `screenshots/prometheus-dashboard.png` |
-| Grafana Dashboard | `screenshots/grafana-dashboard.png` |
 
 ---
 
