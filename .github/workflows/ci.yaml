@@ -37,10 +37,15 @@ jobs:
 
       # SonarQube Scan
       - name: SonarQube Scan
-        uses: SonarSource/sonarqube-scan-action@v5
+        uses: SonarSource/sonarqube-scan-action@v6
         env:
           SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
           SONAR_HOST_URL: ${{ secrets.SONAR_HOST_URL }}
+        with:
+          args: >
+            -Dsonar.projectKey=starbucks
+            -Dsonar.projectName=starbucks
+            -Dsonar.sources=src
 
       # Trivy FS Scan
       - name: Trivy File System Scan
