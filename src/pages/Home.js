@@ -35,7 +35,7 @@ const Home = () => {
                 return (
 
                   <Link to={""} className="flex justify-center items-center flex-col" key={index}>
-                    <img src={item.img} alt={item}className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full hover:border-2 border-green-600 border-solid m-1" />
+                    <img src={item.img} alt={item.title} className="w-20 h-20 sm:w-24 sm:h-24 md:w-28 md:h-28 rounded-full hover:border-2 border-green-600 border-solid m-1" />
                     <p className='font-s_bold text-sm whitespace-normal sm:whitespace-nowrap'>{item.title}</p>
                   </Link>
 
@@ -58,14 +58,14 @@ const Home = () => {
               <div className="swiper-button-banner image-swiper-button-prev-banner absolute">
                 <img
                   src="https://www.starbucks.in/swiperbtnleft.22de7f3e8db5d523.svg"
-                  alt="prev"
+                  alt="Previous slide"
                 />
               </div>
 
               <div className="swiper-button-banner image-swiper-button-next-banner absolute">
                 <img
                   src="https://www.starbucks.in/swiperbtnright.cbc1d309941ecd98.svg"
-                  alt="next"
+                  alt="Next slide"
                 ></img>
               </div>
               <div className='flex gap-2  w-full  sm:px-4' >
@@ -88,7 +88,7 @@ const Home = () => {
                       
                             <div className='flex  h-60  px-3'>
             <div className='p-5  min-w-full shadow-lg rounded-lg  flex sm:gap-7 '    style={{ backgroundImage: `url(${item.bg})` }}>
-              <img src={item.img} className="h-full scale-125 w-16 -m-2 sm:w-auto " />
+              <img src={item.img} alt={item.title} className="h-full scale-125 w-16 -m-2 sm:w-auto " />
               <div className={`text-${item.id==="1"||  item.id === "3" ? 'black':'white'} font-Regular max-w-2xl `}>
                 <p className='text-sm font-s_bold'>{item.title}</p>
                 <h2 className=' font-semibold text-base sm:text-xl my-3'>{item.head}</h2>
@@ -139,14 +139,14 @@ const Home = () => {
             <div className="swiper-button image-swiper-button-prev absolute">
               <img
                 src="https://www.starbucks.in/swiperbtnleft.22de7f3e8db5d523.svg"
-                alt="prev"
+                alt="Previous slide"
               />
             </div>
 
             <div className="swiper-button image-swiper-button-next absolute">
               <img
                 src="https://www.starbucks.in/swiperbtnright.cbc1d309941ecd98.svg"
-                alt="next"
+                alt="Next slide"
               ></img>
             </div>
             <div className='flex gap-2 md:gap-6  w-full  sm:px-4' >
@@ -195,9 +195,9 @@ const Home = () => {
                       <SwiperSlide key={index}>
                         <div className='w-full  bg-white border-2 md:min-w-[200px] min-w-[240px] sm:min-w-[340px] py-4 px-5 box-border rounded-2xl ' >
                           <div className='flex gap-4'>
-                            <img src={item.img} alt={item} className='w-20 bg-red-500 h-20 rounded-md object-cover' />
+                            <img src={item.img} alt={item.title} className='w-20 bg-red-500 h-20 rounded-md object-cover' />
                             <div>
-                              <img src={item.type} alt={item}  className='' />
+                              <img src={item.type} alt={item.title}  className='' />
                               <h3 className='font-s_bold mb-2'>{item.title}</h3>
                               <p className=' text-xs text-gray-700'>PER SERVE({item.gram} ML)-{item.kcal} kcal</p>
                             </div>
@@ -235,7 +235,7 @@ const Home = () => {
           </div>
 
           <div className='h-96 w-full my-9 rounded-md overflow-hidden relative cursor-pointer'>
-            <img src={Coffee} alt="coffe" className="h-full w-full object-cover" />
+            <img src={Coffee} alt="Behind Every Starbucks Cup coffee article cover" className="h-full w-full object-cover" />
             <div className='h-full bg-black bg-opacity-40 hover:bg-opacity-60 hover:bg-gradient-hover w-full absolute top-0 transition-all p-8 flex flex-col justify-between'>
               <p className='bg-green-50 rounded-full w-24 text-xs p-1 font-s_bold text-green-600 text-center'>Coffee Culture</p>
               <div className='text-white'>
