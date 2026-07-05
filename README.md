@@ -343,7 +343,7 @@ The GitHub Actions pipeline automates:
 
 ## 🤖 Ansible Automation
 
-Ansible is used to automate server setup and software installation.
+Ansible is used to automate server setup and software installation. used runner config to c7i-flex large and keep 30gig volume
 
 ### Inventory
 
@@ -554,7 +554,7 @@ This project demonstrates real-world DevSecOps practices commonly used in enterp
 
 **Shakeer Mohammed**
 
-*DevOps | Cloud | Kubernetes | AWS | DevSecOps Enthusiast*
+*DevOps | Cloud | Kubernetes | AWS | DevSecOps *
 
 📧 [mds.shakeer@gmail.com](mailto:mds.shakeer@gmail.com) &nbsp;|&nbsp; 📍 Hyderabad, India
 
