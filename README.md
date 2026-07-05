@@ -119,7 +119,6 @@ Ansible
 <img width="1763" height="805" alt="Screenshot_5-7-2026_184226_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/8b1330cb-be57-415c-8155-3016a12ba990" />
 
 
-<img width="1763" height="805" alt="Screenshot_5-7-2026_184218_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/357aa06a-647e-4d3f-ba86-5647589c6ccd" />
 
 
 <img width="1763" height="805" alt="Screenshot_5-7-2026_183727_a8065bed5a9fd451299141f3f029884e-2126466575 ap-south-1 elb amazonaws com" src="https://github.com/user-attachments/assets/68b3d288-62ca-4080-a6bd-44d8b1dc12c7" />
