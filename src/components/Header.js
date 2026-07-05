@@ -2,7 +2,7 @@ import React from 'react'
 import { Link, NavLink, useLocation } from 'react-router-dom'
 import logo from "../assests/img/logo.png"
 import { RiUserLine } from "react-icons/ri"
-import { BsSearch, BsShop } from "react-icons/bs"
+import { BsShop } from "react-icons/bs"
 import welcomeImage from "../assests/img/Welcome_Website.jpg"
 import { IoHomeSharp, IoHomeOutline } from "react-icons/io5"
 import { HiOutlineGift, HiGift } from "react-icons/hi"
