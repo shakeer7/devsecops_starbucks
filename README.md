@@ -70,7 +70,7 @@ GitHub Actions CI/CD Pipeline
     └── Kubernetes Deployment
     │
     ▼
-Docker Hub
+AWS ECR 
     │
     ▼
 AWS EKS Cluster
