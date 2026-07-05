@@ -1,0 +1,19 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: starbucks
+spec:
+  replicas: 2
+  selector:
+    matchLabels:
+      app: starbucks
+  template:
+    metadata:
+      labels:
+        app: starbucks
+    spec:
+      containers:
+        - name: starbucks
+          image: <AWS_ACCOUNT_ID>.dkr.ecr.ap-south-1.amazonaws.com/starbucks:latest
+          ports:
+            - containerPort: 3000
