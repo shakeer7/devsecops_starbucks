@@ -136,7 +136,7 @@ Ansible
 | | |
 |---|---|
 | ✅ CI/CD using GitHub Actions | ✅ Docker Containerization |
-| ✅ Trivy Security Scanning | ✅ Docker Hub Integration |
+| ✅ Trivy Security Scanning | ✅ AWS ECR Integration |
 | ✅ AWS EKS Deployment | ✅ Kubernetes Orchestration |
 | ✅ Ansible Automation | ✅ Prometheus Monitoring |
 | ✅ Grafana Dashboards | ✅ Load Balancer Exposure |
